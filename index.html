@@ -1,67 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portfolio</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>Portfolio</h1>
-    <h2>Trabajos 2023</h2>
-    <p>Proyecto UX UI</p>
-<img src="img/appmodoavion.jpg" alt="app modo avion inicio" width="400px"/>
-<img src="img/appmodoavion3.jpg" alt="mujer utilizando la app" width="840px"/>
+    <section class="seccion1">
+        <div class="caja1">
+            <h1 class="titulo1">PORTFOLIO</h1>
+            <h2 class="subtitulo1">Proyecto UX/UI</h2>
+        </div>
+        <div class="inline">
+            <img src="img/appmodoavion.jpg" alt="app modo avion inicio" width="400px" />
+            <img src="img/appmodoavion3.jpg" alt="mujer utilizando la app" width="840px" />
+            <p class="descripcion">App de prevención contra las adicciones a los dispositivos tecnológicos</p>
+        </div>
+    </section>
 
-    <br>
-
-    <em>App de prevención contra las adicciones a los dispositivos tecnológicos</em>
-
-    <hr>
-
-    <h3>Funciones principales</h3>
-
-    <ol type="I">
-        <li>Control parental</li>
-            <ul>
+    <div class="caja2">
+        <h3 class="titulo2">Funciones principales</h3>
+        <ol type="I">
+            <li id="subtitulolista">Control parental</li>
+            <ul id="lista">
                 <li>Ubicación en tiempo real</li>
                 <li>Control del tiempo en pantalla diario y en cada app</li>
                 <li>Historial de navegación</li>
                 <li>Modo kids</li>
             </ul>
-    </ol>
+        </ol>
+    </div>
 
-    <strong>Contenido para niños</strong>
-    <br>
+    <h4 class="subtitulo2">Contenido para niños</h4>
+    <div class="tabla">
+        <table border="1" cellpadding="10px" id="table">
+            <tr>
+                <th>Actividades</th>
+                <th>¿Sabías qué?</th>
+                <th>Ficha de salud</th>
+            </tr>
+            <tr>
+                <td>Barquito de origami</td>
+                <td>Información respaldada científicamente</td>
+                <td>Evolución</td>
+            </tr>
+            <tr>
+                <td>Comecocos</td>
+                <td>Torneos fuera de lo digital</td>
+                <td>Salud mental</td>
+            </tr>
+            <tr>
+                <td>Cometa de cartón</td>
+                <td>Campañas ONG y charlas de concientización</td>
+                <td>Soporte y ayuda</td>
+            </tr>
+        </table>
+    </div>
 
-    <table border="1" cellpadding="10px">
-        <tr>
-            <th>Actividades</th>
-            <th>¿Sabías qué?</th>
-            <th>Ficha de salud</th>
-        </tr>
-        <tr>
-            <td>Barquito de origami</td>
-            <td>Información respaldada científicamente</td>
-            <td>Evolución</td>
-        </tr>
-        <tr>
-            <td>Comecocos</td>
-            <td>Torneos fuera de lo digital</td>
-            <td>Salud mental</td>
-        </tr>
-        <tr>
-            <td>Cometa de cartón</td>
-            <td>Campañas ONG y charlas de concientización</td>
-            <td>Soporte y ayuda</td>
-        </tr>
-    </table>
-
-    <br>
-
-    <a href="https://www.figma.com/file/UFuBWd3wx5ScbI63chLBwE/App-Modo-Avi%C3%B3n-Activado---Soutullo-Roc%C3%ADo?node-id=780-11500">
-        Probá la app
-    </a>
+    <div class="link">
+        <a
+            href="https://www.figma.com/file/UFuBWd3wx5ScbI63chLBwE/App-Modo-Avi%C3%B3n-Activado---Soutullo-Roc%C3%ADo?node-id=780-11500">
+            Probá la app
+        </a>
+    </div>
 
 </body>
+
 </html>
